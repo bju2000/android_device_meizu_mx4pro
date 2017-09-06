@@ -21,6 +21,6 @@
     },
     {
         "repository": "android_kernel_meizu_mx4pro",
-        "target_path": "kernel/meizu/mx4pro"
+        "target_path": "device/meizu/mx4pro-kernel"
     }
 ]
