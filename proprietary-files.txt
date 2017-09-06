@@ -1,7 +1,9 @@
+# MobiCore Daemon in Android
 app/mcRegistry/05010000000000000000000000000000.tlbin
 app/mcRegistry/05020000000000000000000000000000.tabin
 app/mcRegistry/ffffffffffff00000000000000000001.tabin
 app/mcRegistry/ffffffffffff00000000000000000002.tabin
+
 bin/board_info
 bin/cploadserver
 bin/eeh_server
@@ -49,7 +51,7 @@ etc/TTPCom_NRAM2_ABMM_WRITEABLE_DATA_CUC.gki
 etc/TTPCom_NRAM2_ABMM_WRITEABLE_DATA.gki
 etc/wifi/bcmdhd.cal
 lib/hw/flp.default.so
-lib/hw/gps.default.so:lib/hw/gps.m76.so
+lib/hw/gps.default.so
 lib/hw/sensors.m76.so
 lib/libcaFingerPrintShared.so
 lib/libfp_client.so

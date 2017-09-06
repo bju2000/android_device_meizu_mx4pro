@@ -1,1 +1,1 @@
-add_lunch_combo mk_mx4pro-userdebug
+add_lunch_combo lineage_mx4pro-userdebug
