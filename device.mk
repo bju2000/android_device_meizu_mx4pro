@@ -13,16 +13,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
-ifeq ($(TARGET_PREBUILT_KERNEL),)
-LOCAL_KERNEL := device/meizu/mx4pro-kernel/kernel
-else
-LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
-
-PRODUCT_COPY_FILES := \
-        $(LOCAL_KERNEL):kernel
-
 $(call inherit-product-if-exists, vendor/meizu/mx4pro/mx4pro-vendor.mk)
 
 # Overlays
