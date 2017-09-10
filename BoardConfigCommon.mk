@@ -1,7 +1,6 @@
 LOCAL_PATH := device/meizu/mx4pro
 
 TARGET_ARCH := arm
-TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
 
 # Platform
@@ -30,9 +29,11 @@ ifeq ($(HOST_OS),linux)
 endif
 WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
 
-# BOOT
-TARGET_BOOTLOADER_BOARD_NAME := m76
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := m462
+TARGET_NO_BOOTLOADER := true
 
+# Kernel
 BOARD_KERNEL_BASE := 0x26000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyFIQ2,115200 vmalloc=512M ess_setup=0x26000000 ramoops_setup reset_reason_setup noexec=on earlyprintk no_console_suspend
